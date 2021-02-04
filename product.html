@@ -52,229 +52,231 @@
        <a class="navigation__link" href="#">Featured</a>
        <a class="navigation__link" href="#">Hot deals</a>
     </nav>
-    <section class="breadcrumb">
-       <div class="breadcrumb__wrapper container">
-            <h1 class="breadcrumb__title">New Arrivals</h1>
-            <div class="breadcrumb__menu">
-                <span class="breadcrumb__menu-link">Home /</span>
-                <span class="breadcrumb__menu-link">Men /</span>
-                <span class="breadcrumb__menu-link-special">New arrivals</span>
-            </div>           
-       </div>            
-    </section>
-    <div class="product-content container">
-        <div class="product-content__sidebar">
-            <button class="sidebar__category-active">Category
-                <button class="sidebar__category-item">Accessories</button>
-                <button class="sidebar__category-item">Bags</button>
-                <button class="sidebar__category-item">Denim</button>
-                <button class="sidebar__category-item">Hoodies &amp;&nbsp;Sweats</button>
-                <button class="sidebar__category-item">Jackets &amp;&nbsp;Coats</button>
-                <button class="sidebar__category-item">Pants</button>
-                <button class="sidebar__category-item">Polos</button>
-                <button class="sidebar__category-item">Shirts</button>
-                <button class="sidebar__category-item">Shoes</button>
-                <button class="sidebar__category-item">Shorts</button>
-                <button class="sidebar__category-item">Sweaters &amp;&nbsp;Knits</button>
-                <button class="sidebar__category-item">T-Shirts</button>
-                <button class="sidebar__category-item">Tanks</button>
-            </button>
-            <button class="sidebar__category">Brand</button>
-            <button class="sidebar__category">Designer</button> 
-        </div>
-        <div class="product-content__wrapper">
-            <div class="product-content__wrapper-filter">
-               <div class="filter__by-trend">
-                    <h4 class="filter__by-trend-title">Trending Now</h4>
-                    <button class="filter__by-trend-item">Bohemian</button><button class="filter__by-trend-item">Floral</button><button class="filter__by-trend-item">Lace</button><button class="filter__by-trend-item">Floral</button><button class="filter__by-trend-item">Lace</button><button class="filter__by-trend-item">Bohemian</button>   
-               </div>
-               <div class="filter__by-size">
-                   <h4 class="filter__by-size-title">Size</h4>
-                   <div class="checkbox__wrapper">
-                       <label class="filter__by-size-text" for="XXS"><input class="checkbox__wrapper-item" type="checkbox" id="XXS">XXS</label>
-                       <label class="filter__by-size-text" for="XS"><input class="checkbox__wrapper-item" type="checkbox" id="XS">XS</label>
-                       <label class="filter__by-size-text" for="S"><input class="checkbox__wrapper-item" type="checkbox" id="S">S</label>
-                       <label class="filter__by-size-text" for="M"><input class="checkbox__wrapper-item" type="checkbox" id="M">M</label>
-                       <label class="filter__by-size-text" for="L"><input class="checkbox__wrapper-item" type="checkbox" id="L">L</label>
-                       <label class="filter__by-size-text" for="XL"><input class="checkbox__wrapper-item" type="checkbox" id="XL">XL</label>
-                       <label class="filter__by-size-text" for="XXL"><input class="checkbox__wrapper-item" type="checkbox" id="XXL">XXL</label>
-                    </div>
-               </div>
-               <div class="filter__by-price">
-                  <h4 class="filter__by-price-title">Price</h4>
-                  <div class="by-price__range"id="slider-range"></div>
-                  <div class="by-price__text">
-                      <span class="price__range-text-item">$52</span>
-                      <span class="price__range-text-item">$400</span>
-                  </div>
-               </div>                               
+    <main>
+        <section class="breadcrumb">
+            <div class="breadcrumb__wrapper container">
+                <h1 class="breadcrumb__title">New Arrivals</h1>
+                <div class="breadcrumb__menu">
+                    <span class="breadcrumb__menu-link">Home /</span>
+                    <span class="breadcrumb__menu-link">Men /</span>
+                    <span class="breadcrumb__menu-link-special">New arrivals</span>
+                </div>           
+            </div>            
+        </section>
+        <section class="product-content container">
+            <div class="product-content__sidebar">
+                <button class="sidebar__category-active">Category
+                    <button class="sidebar__category-item">Accessories</button>
+                    <button class="sidebar__category-item">Bags</button>
+                    <button class="sidebar__category-item">Denim</button>
+                    <button class="sidebar__category-item">Hoodies &amp;&nbsp;Sweats</button>
+                    <button class="sidebar__category-item">Jackets &amp;&nbsp;Coats</button>
+                    <button class="sidebar__category-item">Pants</button>
+                    <button class="sidebar__category-item">Polos</button>
+                    <button class="sidebar__category-item">Shirts</button>
+                    <button class="sidebar__category-item">Shoes</button>
+                    <button class="sidebar__category-item">Shorts</button>
+                    <button class="sidebar__category-item">Sweaters &amp;&nbsp;Knits</button>
+                    <button class="sidebar__category-item">T-Shirts</button>
+                    <button class="sidebar__category-item">Tanks</button>
+                </button>
+                <button class="sidebar__category">Brand</button>
+                <button class="sidebar__category">Designer</button> 
             </div>
-            <form class="product-content__wrapper-sorting" action="#">
-               <div class="sorting__by-feature">
-                   <button class="sorting__by-feature-text">Sort By</button><input class="sorting__by-feature-input" name="feature" list="features"/>
-                    <datalist id="features">
-                       <option value="Name"/>
-                       <option value="Color"/>
-                       <option value="Popular"/>
-                       <option value="Most sold"/>
-                       <option value="Reviews"/>
-                    </datalist>
-               </div>
-               <div class="sorting__by-quantity">
-                   <button class="sorting__by-quantity-text">Show</button><input class="sorting__by-quantity-input" name="number" list="numbers"/>
-                    <datalist id="numbers">
-                       <option value="9"/>
-                       <option value="18"/>
-                       <option value="27"/>
-                       <option value="Feed"/>
-                    </datalist>
-               </div>                   
-            </form>
-            <div class="product-content__wrapper-items">
-                <figure class="product_item">
-                    <p><img src="img/men_product_item_1.jpg" alt="product1" /></p>
-                    <figcaption class="product__features-wrapper">
-                    <span class="product__name">Mango People T-shirt</span>
-                    <span class="product__price">$52.00</span></figcaption>
-                    <figure class="hidden">
-                        <p><img src="img/product_active.png" alt="product_active" /></p>
-                        <figcaption class="product__add"><button class="cart__button"><img class="cart" src="img/cart.png" alt="cart">Add to Cart</button>
-                        <div class="buy-controls__wrapper">
-                            <button class="repeat__button"><img class="repeat" src="img/repeat.png" alt="repeat"></button><button class="favorite__button"><img class="favorite" src="img/favorite.png" alt="favorite"></button>
+            <div class="product-content__wrapper">
+                <div class="product-content__wrapper-filter">
+                   <div class="filter__by-trend">
+                        <h4 class="filter__by-trend-title">Trending Now</h4>
+                        <button class="filter__by-trend-item">Bohemian</button><button class="filter__by-trend-item">Floral</button><button class="filter__by-trend-item">Lace</button><button class="filter__by-trend-item">Floral</button><button class="filter__by-trend-item">Lace</button><button class="filter__by-trend-item">Bohemian</button>   
+                   </div>
+                   <div class="filter__by-size">
+                       <h4 class="filter__by-size-title">Size</h4>
+                       <div class="checkbox__wrapper">
+                           <label class="filter__by-size-text" for="XXS"><input class="checkbox__wrapper-item" type="checkbox" id="XXS">XXS</label>
+                           <label class="filter__by-size-text" for="XS"><input class="checkbox__wrapper-item" type="checkbox" id="XS">XS</label>
+                           <label class="filter__by-size-text" for="S"><input class="checkbox__wrapper-item" type="checkbox" id="S">S</label>
+                           <label class="filter__by-size-text" for="M"><input class="checkbox__wrapper-item" type="checkbox" id="M">M</label>
+                           <label class="filter__by-size-text" for="L"><input class="checkbox__wrapper-item" type="checkbox" id="L">L</label>
+                           <label class="filter__by-size-text" for="XL"><input class="checkbox__wrapper-item" type="checkbox" id="XL">XL</label>
+                           <label class="filter__by-size-text" for="XXL"><input class="checkbox__wrapper-item" type="checkbox" id="XXL">XXL</label>
                         </div>
-                        </figcaption>
-                    </figure>
-                </figure>
-                <figure class="product_item">
-                    <p><img src="img/men_product_item_2.jpg" alt="product1" /></p>
-                    <figcaption class="product__features-wrapper">
-                    <span class="product__name">Mango People T-shirt</span>
-                    <span class="product__price">$52.00</span></figcaption>
-                    <figure class="hidden">
-                        <p><img src="img/product_active.png" alt="product_active" /></p>
-                        <figcaption class="product__add"><button class="cart__button"><img class="cart" src="img/cart.png" alt="cart">Add to Cart</button>
-                        <div class="buy-controls__wrapper">
-                            <button class="repeat__button"><img class="repeat" src="img/repeat.png" alt="repeat"></button><button class="favorite__button"><img class="favorite" src="img/favorite.png" alt="favorite"></button>
-                        </div>
-                        </figcaption>
-                    </figure>
-                </figure>
-                <figure class="product_item">
-                    <p><img src="img/men_product_item_3.jpg" alt="product1" /></p>
-                    <figcaption class="product__features-wrapper">
-                    <span class="product__name">Mango People T-shirt</span>
-                    <span class="product__price">$52.00</span></figcaption>
-                    <figure class="hidden">
-                        <p><img src="img/product_active.png" alt="product_active" /></p>
-                        <figcaption class="product__add"><button class="cart__button"><img class="cart" src="img/cart.png" alt="cart">Add to Cart</button>
-                        <div class="buy-controls__wrapper">
-                            <button class="repeat__button"><img class="repeat" src="img/repeat.png" alt="repeat"></button><button class="favorite__button"><img class="favorite" src="img/favorite.png" alt="favorite"></button>
-                        </div>
-                        </figcaption>
-                    </figure>
-                </figure>
-                <figure class="product_item">
-                    <p><img src="img/men_product_item_4.jpg" alt="product1" /></p>
-                    <figcaption class="product__features-wrapper">
-                    <span class="product__name">Mango People T-shirt</span>
-                    <span class="product__price">$52.00</span></figcaption>
-                    <figure class="hidden">
-                        <p><img src="img/product_active.png" alt="product_active" /></p>
-                        <figcaption class="product__add"><button class="cart__button"><img class="cart" src="img/cart.png" alt="cart">Add to Cart</button>
-                        <div class="buy-controls__wrapper">
-                            <button class="repeat__button"><img class="repeat" src="img/repeat.png" alt="repeat"></button><button class="favorite__button"><img class="favorite" src="img/favorite.png" alt="favorite"></button>
-                        </div>
-                        </figcaption>
-                    </figure>
-                </figure>
-                <figure class="product_item">
-                    <p><img src="img/men_product_item_5.jpg" alt="product1" /></p>
-                    <figcaption class="product__features-wrapper">
-                    <span class="product__name">Mango People T-shirt</span>
-                    <span class="product__price">$52.00</span></figcaption>
-                    <figure class="hidden">
-                        <p><img src="img/product_active.png" alt="product_active" /></p>
-                        <figcaption class="product__add"><button class="cart__button"><img class="cart" src="img/cart.png" alt="cart">Add to Cart</button>
-                        <div class="buy-controls__wrapper">
-                            <button class="repeat__button"><img class="repeat" src="img/repeat.png" alt="repeat"></button><button class="favorite__button"><img class="favorite" src="img/favorite.png" alt="favorite"></button>
-                        </div>
-                        </figcaption>
-                    </figure>
-                </figure>
-                <figure class="product_item">
-                    <p><img src="img/men_product_item_6.jpg" alt="product1" /></p>
-                    <figcaption class="product__features-wrapper">
-                    <span class="product__name">Mango People T-shirt</span>
-                    <span class="product__price">$52.00</span></figcaption>
-                    <figure class="hidden">
-                        <p><img src="img/product_active.png" alt="product_active" /></p>
-                        <figcaption class="product__add"><button class="cart__button"><img class="cart" src="img/cart.png" alt="cart">Add to Cart</button>
-                        <div class="buy-controls__wrapper">
-                            <button class="repeat__button"><img class="repeat" src="img/repeat.png" alt="repeat"></button><button class="favorite__button"><img class="favorite" src="img/favorite.png" alt="favorite"></button>
-                        </div>
-                        </figcaption>
-                    </figure>
-                </figure>
-                <figure class="product_item">
-                    <p><img src="img/men_product_item_7.jpg" alt="product1" /></p>
-                    <figcaption class="product__features-wrapper">
-                    <span class="product__name">Mango People T-shirt</span>
-                    <span class="product__price">$52.00</span></figcaption>
-                    <figure class="hidden">
-                        <p><img src="img/product_active.png" alt="product_active" /></p>
-                        <figcaption class="product__add"><button class="cart__button"><img class="cart" src="img/cart.png" alt="cart">Add to Cart</button>
-                        <div class="buy-controls__wrapper">
-                            <button class="repeat__button"><img class="repeat" src="img/repeat.png" alt="repeat"></button><button class="favorite__button"><img class="favorite" src="img/favorite.png" alt="favorite"></button>
-                        </div>
-                        </figcaption>
-                    </figure>
-                </figure>
-                <figure class="product_item">
-                    <p><img src="img/men_product_item_8.jpg" alt="product1" /></p>
-                    <figcaption class="product__features-wrapper">
-                    <span class="product__name">Mango People T-shirt</span>
-                    <span class="product__price">$52.00</span></figcaption>
-                    <figure class="hidden">
-                        <p><img src="img/product_active.png" alt="product_active" /></p>
-                        <figcaption class="product__add"><button class="cart__button"><img class="cart" src="img/cart.png" alt="cart">Add to Cart</button>
-                        <div class="buy-controls__wrapper">
-                            <button class="repeat__button"><img class="repeat" src="img/repeat.png" alt="repeat"></button><button class="favorite__button"><img class="favorite" src="img/favorite.png" alt="favorite"></button>
-                        </div>
-                        </figcaption>
-                    </figure>
-                </figure>
-                <figure class="product_item">
-                    <p><img src="img/men_product_item_9.jpg" alt="product1" /></p>
-                    <figcaption class="product__features-wrapper">
-                    <span class="product__name">Mango People T-shirt</span>
-                    <span class="product__price">$52.00</span></figcaption>
-                    <figure class="hidden">
-                        <p><img src="img/product_active.png" alt="product_active" /></p>
-                        <figcaption class="product__add"><button class="cart__button"><img class="cart" src="img/cart.png" alt="cart">Add to Cart</button>
-                        <div class="buy-controls__wrapper">
-                            <button class="repeat__button"><img class="repeat" src="img/repeat.png" alt="repeat"></button><button class="favorite__button"><img class="favorite" src="img/favorite.png" alt="favorite"></button>
-                        </div>
-                        </figcaption>
-                    </figure>
-                </figure>
-            </div>
-            <div class="product-content__pagination-wrapper">
-                <div class="pagination">
-                    <button class="pagination__disabled-arrow"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
-                    <button class="pagination__enabled-item">1</button>
-                    <button class="pagination__disabled-item">2</button>
-                    <button class="pagination__disabled-item">3</button>
-                    <button class="pagination__disabled-item">4</button>
-                    <button class="pagination__disabled-item">5</button>
-                    <button class="pagination__disabled-item">6</button>
-                    <button class="pagination__dots-item">...</button>
-                    <button class="pagination__disabled-item">20</button>
-                    <button class="pagination__enabled-arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
+                   </div>
+                   <div class="filter__by-price">
+                      <h4 class="filter__by-price-title">Price</h4>
+                      <div class="by-price__range"id="slider-range"></div>
+                      <div class="by-price__text">
+                          <span class="price__range-text-item">$52</span>
+                          <span class="price__range-text-item">$400</span>
+                      </div>
+                   </div>                               
                 </div>
-                <button class="product-content__view-all">View All</button>
+                <form class="product-content__wrapper-sorting" action="#">
+                   <div class="sorting__by-feature">
+                       <button class="sorting__by-feature-text">Sort By</button><input class="sorting__by-feature-input" name="feature" list="features"/>
+                        <datalist id="features">
+                           <option value="Name"/>
+                           <option value="Color"/>
+                           <option value="Popular"/>
+                           <option value="Most sold"/>
+                           <option value="Reviews"/>
+                        </datalist>
+                   </div>
+                   <div class="sorting__by-quantity">
+                       <button class="sorting__by-quantity-text">Show</button><input class="sorting__by-quantity-input" name="number" list="numbers"/>
+                        <datalist id="numbers">
+                           <option value="9"/>
+                           <option value="18"/>
+                           <option value="27"/>
+                           <option value="Feed"/>
+                        </datalist>
+                   </div>                   
+                </form>
+                <div class="product-content__wrapper-items">
+                    <figure class="product_item">
+                        <p><img src="img/men_product_item_1.jpg" alt="product1" /></p>
+                        <figcaption class="product__features-wrapper">
+                        <span class="product__name">Mango People T-shirt</span>
+                        <span class="product__price">$52.00</span></figcaption>
+                        <figure class="hidden">
+                            <p><img src="img/product_active.png" alt="product_active" /></p>
+                            <figcaption class="product__add"><button class="cart__button"><img class="cart" src="img/cart.png" alt="cart">Add to Cart</button>
+                            <div class="buy-controls__wrapper">
+                                <button class="repeat__button"><img class="repeat" src="img/repeat.png" alt="repeat"></button><button class="favorite__button"><img class="favorite" src="img/favorite.png" alt="favorite"></button>
+                            </div>
+                            </figcaption>
+                        </figure>
+                    </figure>
+                    <figure class="product_item">
+                        <p><img src="img/men_product_item_2.jpg" alt="product1" /></p>
+                        <figcaption class="product__features-wrapper">
+                        <span class="product__name">Mango People T-shirt</span>
+                        <span class="product__price">$52.00</span></figcaption>
+                        <figure class="hidden">
+                            <p><img src="img/product_active.png" alt="product_active" /></p>
+                            <figcaption class="product__add"><button class="cart__button"><img class="cart" src="img/cart.png" alt="cart">Add to Cart</button>
+                            <div class="buy-controls__wrapper">
+                                <button class="repeat__button"><img class="repeat" src="img/repeat.png" alt="repeat"></button><button class="favorite__button"><img class="favorite" src="img/favorite.png" alt="favorite"></button>
+                            </div>
+                            </figcaption>
+                        </figure>
+                    </figure>
+                    <figure class="product_item">
+                        <p><img src="img/men_product_item_3.jpg" alt="product1" /></p>
+                        <figcaption class="product__features-wrapper">
+                        <span class="product__name">Mango People T-shirt</span>
+                        <span class="product__price">$52.00</span></figcaption>
+                        <figure class="hidden">
+                            <p><img src="img/product_active.png" alt="product_active" /></p>
+                            <figcaption class="product__add"><button class="cart__button"><img class="cart" src="img/cart.png" alt="cart">Add to Cart</button>
+                            <div class="buy-controls__wrapper">
+                                <button class="repeat__button"><img class="repeat" src="img/repeat.png" alt="repeat"></button><button class="favorite__button"><img class="favorite" src="img/favorite.png" alt="favorite"></button>
+                            </div>
+                            </figcaption>
+                        </figure>
+                    </figure>
+                    <figure class="product_item">
+                        <p><img src="img/men_product_item_4.jpg" alt="product1" /></p>
+                        <figcaption class="product__features-wrapper">
+                        <span class="product__name">Mango People T-shirt</span>
+                        <span class="product__price">$52.00</span></figcaption>
+                        <figure class="hidden">
+                            <p><img src="img/product_active.png" alt="product_active" /></p>
+                            <figcaption class="product__add"><button class="cart__button"><img class="cart" src="img/cart.png" alt="cart">Add to Cart</button>
+                            <div class="buy-controls__wrapper">
+                                <button class="repeat__button"><img class="repeat" src="img/repeat.png" alt="repeat"></button><button class="favorite__button"><img class="favorite" src="img/favorite.png" alt="favorite"></button>
+                            </div>
+                            </figcaption>
+                        </figure>
+                    </figure>
+                    <figure class="product_item">
+                        <p><img src="img/men_product_item_5.jpg" alt="product1" /></p>
+                        <figcaption class="product__features-wrapper">
+                        <span class="product__name">Mango People T-shirt</span>
+                        <span class="product__price">$52.00</span></figcaption>
+                        <figure class="hidden">
+                            <p><img src="img/product_active.png" alt="product_active" /></p>
+                            <figcaption class="product__add"><button class="cart__button"><img class="cart" src="img/cart.png" alt="cart">Add to Cart</button>
+                            <div class="buy-controls__wrapper">
+                                <button class="repeat__button"><img class="repeat" src="img/repeat.png" alt="repeat"></button><button class="favorite__button"><img class="favorite" src="img/favorite.png" alt="favorite"></button>
+                            </div>
+                            </figcaption>
+                        </figure>
+                    </figure>
+                    <figure class="product_item">
+                        <p><img src="img/men_product_item_6.jpg" alt="product1" /></p>
+                        <figcaption class="product__features-wrapper">
+                        <span class="product__name">Mango People T-shirt</span>
+                        <span class="product__price">$52.00</span></figcaption>
+                        <figure class="hidden">
+                            <p><img src="img/product_active.png" alt="product_active" /></p>
+                            <figcaption class="product__add"><button class="cart__button"><img class="cart" src="img/cart.png" alt="cart">Add to Cart</button>
+                            <div class="buy-controls__wrapper">
+                                <button class="repeat__button"><img class="repeat" src="img/repeat.png" alt="repeat"></button><button class="favorite__button"><img class="favorite" src="img/favorite.png" alt="favorite"></button>
+                            </div>
+                            </figcaption>
+                        </figure>
+                    </figure>
+                    <figure class="product_item">
+                        <p><img src="img/men_product_item_7.jpg" alt="product1" /></p>
+                        <figcaption class="product__features-wrapper">
+                        <span class="product__name">Mango People T-shirt</span>
+                        <span class="product__price">$52.00</span></figcaption>
+                        <figure class="hidden">
+                            <p><img src="img/product_active.png" alt="product_active" /></p>
+                            <figcaption class="product__add"><button class="cart__button"><img class="cart" src="img/cart.png" alt="cart">Add to Cart</button>
+                            <div class="buy-controls__wrapper">
+                                <button class="repeat__button"><img class="repeat" src="img/repeat.png" alt="repeat"></button><button class="favorite__button"><img class="favorite" src="img/favorite.png" alt="favorite"></button>
+                            </div>
+                            </figcaption>
+                        </figure>
+                    </figure>
+                    <figure class="product_item">
+                        <p><img src="img/men_product_item_8.jpg" alt="product1" /></p>
+                        <figcaption class="product__features-wrapper">
+                        <span class="product__name">Mango People T-shirt</span>
+                        <span class="product__price">$52.00</span></figcaption>
+                        <figure class="hidden">
+                            <p><img src="img/product_active.png" alt="product_active" /></p>
+                            <figcaption class="product__add"><button class="cart__button"><img class="cart" src="img/cart.png" alt="cart">Add to Cart</button>
+                            <div class="buy-controls__wrapper">
+                                <button class="repeat__button"><img class="repeat" src="img/repeat.png" alt="repeat"></button><button class="favorite__button"><img class="favorite" src="img/favorite.png" alt="favorite"></button>
+                            </div>
+                            </figcaption>
+                        </figure>
+                    </figure>
+                    <figure class="product_item">
+                        <p><img src="img/men_product_item_9.jpg" alt="product1" /></p>
+                        <figcaption class="product__features-wrapper">
+                        <span class="product__name">Mango People T-shirt</span>
+                        <span class="product__price">$52.00</span></figcaption>
+                        <figure class="hidden">
+                            <p><img src="img/product_active.png" alt="product_active" /></p>
+                            <figcaption class="product__add"><button class="cart__button"><img class="cart" src="img/cart.png" alt="cart">Add to Cart</button>
+                            <div class="buy-controls__wrapper">
+                                <button class="repeat__button"><img class="repeat" src="img/repeat.png" alt="repeat"></button><button class="favorite__button"><img class="favorite" src="img/favorite.png" alt="favorite"></button>
+                            </div>
+                            </figcaption>
+                        </figure>
+                    </figure>
+                </div>
+                <div class="product-content__pagination-wrapper">
+                    <div class="pagination">
+                        <button class="pagination__disabled-arrow"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
+                        <button class="pagination__enabled-item">1</button>
+                        <button class="pagination__disabled-item">2</button>
+                        <button class="pagination__disabled-item">3</button>
+                        <button class="pagination__disabled-item">4</button>
+                        <button class="pagination__disabled-item">5</button>
+                        <button class="pagination__disabled-item">6</button>
+                        <button class="pagination__dots-item">...</button>
+                        <button class="pagination__disabled-item">20</button>
+                        <button class="pagination__enabled-arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
+                    </div>
+                    <button class="product-content__view-all">View All</button>
+                </div>
             </div>
-        </div>
-    </div>
+        </section>
+    </main>
     <section class="feature__boxes">
         <div class="feature__boxes-wrapper container">
             <div class="feature__box-delivery">
