@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Верстка Geekbrains</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lato-font/3.0.0/css/lato-font.min.css">
+    <link rel="stylesheet" href="css/style-single.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+</head>
+<body>
+    <header>
+       <div class="header__wrapper container">
+           <a class="header__logo" href="index.html">
+               <img src="img/logo.png" alt="logo">
+               <span class="brand-first-part">Bran</span><span class="brand-second-part">d</span>
+           </a>
+           <form class="header__form" action="#">
+               <button class="header__form-browse">Browse</button><input class="header__form-input" type="text" placeholder="Search for item..." /><button class="header__form-search"><i class="fa fa-search" aria-hidden="true"></i></button>              
+           </form>
+           <div class="header__controls">
+               <a class="header__controls-buy"href="#"><img src="img/buy.png" alt="buy"></a>
+               <button class="header__controls-account">My account</button>
+           </div>
+       </div>
+    </header>
+    <nav class="navigation">
+       <a class="navigation__link" href="#">Home</a>
+       <a class="navigation__link-active" href="#">Man</a>
+       <a class="navigation__link" href="#">Women</a>
+       <a class="navigation__link" href="#">Kids</a>
+       <a class="navigation__link" href="#">Аccessories</a>
+       <a class="navigation__link" href="#">Featured</a>
+       <a class="navigation__link" href="#">Hot deals</a>
+    </nav>
+    <section class="breadcrumb">
+       <div class="breadcrumb__wrapper container">
+            <h1 class="breadcrumb__title">New Arrivals</h1>
+            <div class="breadcrumb__menu">
+                <span class="breadcrumb__menu-link">Home /</span>
+                <span class="breadcrumb__menu-link">Men /</span>
+                <span class="breadcrumb__menu-link-special">New arrivals</span>
+            </div>           
+       </div>            
+    </section>
+    <section class="product-description">
+        <div class="product-description__slider">
+           <button class="product-description__slider-controls"><i class="fa fa-angle-left" aria-hidden="true"></i></button><button class="product-description__slider-controls"><i class="fa fa-angle-right" aria-hidden="true"></i></button>            
+        </div>
+        <div class="product-description__wrapper container">
+            <span class="product-description__title-special">WOMEN COLLECTION</span>
+            <span class="product-description__title">Moschino Cheap And Chic</span>
+            <span class="product-description__text">Compellingly actualize fully researched processes before proactive outsourcing. Progressively syndicate collaborative architectures before cutting-edge services. Completely visualize parallel core competencies rather than exceptional portals. </span>
+            <div class="product-description__properties">
+                <span class="product-description__properties-item">MATERIAL:<span class="properties-text">COTTON</span></span>
+                <span class="product-description__properties-item">DESIGNER:<span class="properties-text">BINBURHAN</span></span>
+            </div>
+            <span class="product-description__price">$561</span>
+            <form class="product-description__filter" action="#">
+               <div class="product-description__filter-item">
+                   <label class="product-description__filter-item-label" for="color-choise">CHOOSE COLOR</label>
+                   <input class="product-description__filter-item-input" type="color" id="color-choise">
+               </div>
+               <div class="product-description__filter-item">
+                   <label class="product-description__filter-item-label" for="size-choise">CHOOSE SIZE</label>
+                   <input class="product-description__filter-item-input" name="size" list="sizes" id="size-choise" />
+                        <datalist id="sizes">
+                           <option value="XXL" />
+                           <option value="XL" />
+                           <option value="L" />
+                           <option value="M" />
+                           <option value="S" />
+                           <option value="XS" />
+                           <option value="XXS" />
+                        </datalist>
+                </div>
+                <div class="product-description__filter-item">
+                   <label class="product-description__filter-item-label" for="quantity-choise">QUANTITY</label>
+                   <input class="product-description__filter-item-input" name="quantity" list="quantities" id="quantity-choise" />
+                        <datalist id="quantities">
+                           <option value="1" />
+                           <option value="2" />
+                           <option value="3" />
+                           <option value="4" />
+                           <option value="5" />
+                           <option value="6" />
+                           <option value="7" />
+                        </datalist>
+                </div>
+            </form>
+            <button class="product-description__button-cart"><img class="cart-red" src="img/red_cart.png" alt="red-cart">Add to Cart</button>
+        </div>
+    </section>
+    <section class="product container">
+           <h1 class="product__title">you may like also</h1>
+           <div class="product__wrapper">
+                <figure class="product_item">
+                    <p><img src="img/women-product-1.jpg" alt="product1" /></p>
+                    <figcaption class="product__features-wrapper">
+                    <span class="product__name">BLAZE LEGGINGS</span>
+                    <span class="product__price">$52.00</span></figcaption>
+                    <figure class="hidden">
+                        <p><img src="img/product_active.png" alt="product_active" /></p>
+                        <figcaption class="product__add"><button class="cart__button"><img class="cart" src="img/cart.png" alt="cart">Add to Cart</button>
+                        </figcaption>
+                    </figure>
+                </figure>
+                <figure class="product_item">
+                    <p><img src="img/women-product-2.jpg" alt="product2" /></p>
+                    <figcaption class="product__features-wrapper">
+                    <span class="product__name">ALEXA SWEATER</span>
+                    <span class="product__price">$52.00</span></figcaption>
+                    <figure class="hidden">
+                        <p><img src="img/product_active.png" alt="product_active" /></p>
+                        <figcaption class="product__add"><button class="cart__button"><img class="cart" src="img/cart.png" alt="cart">Add to Cart</button>
+                        </figcaption>
+                    </figure>
+                </figure>
+                <figure class="product_item">
+                    <p><img src="img/women-product-3.jpg" alt="product3" /></p>
+                    <figcaption class="product__features-wrapper">
+                    <span class="product__name">AGNES TOP</span>
+                    <span class="product__price">$52.00</span></figcaption>
+                    <figure class="hidden">
+                        <p><img src="img/product_active.png" alt="product_active" /></p>
+                        <figcaption class="product__add"><button class="cart__button"><img class="cart" src="img/cart.png" alt="cart">Add to Cart</button>
+                        </figcaption>
+                    </figure>
+                </figure>
+                <figure class="product_item">
+                    <p><img src="img/women-product-4.jpg" alt="product4" /></p>
+                    <figcaption class="product__features-wrapper">
+                    <span class="product__name">SYLVA SWEATER</span>
+                    <span class="product__price">$52.00</span></figcaption>
+                    <figure class="hidden">
+                        <p><img src="img/product_active.png" alt="product_active" /></p>
+                        <figcaption class="product__add"><button class="cart__button"><img class="cart" src="img/cart.png" alt="cart">Add to Cart</button>
+                        </figcaption>
+                    </figure>
+                </figure>
+           </div> 
+        </section>
+    <section class="subscribe">
+        <div class="subscribe__content container">
+            <div class="subscribe__feedback">
+                    <img class="subscribe__feedback-image" src="img/feedback-image.jpeg" alt="feedback-image">
+                    <div class="subscribe__feedback-caption">
+                        <span class="subscribe__feedback-caption-text">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</span><span class="subscribe__feedback-caption-title">Bin Burhan <span class="subscribe__feedback-caption-subtitle">Dhaka, Bd</span></span>
+                    </div>
+            </div>
+            <div class="subscribe__form-wrapper">
+                <span class="subscribe__form-title">Subscribe</span>
+                <span class="subscribe__form-subtitle">FOR OUR NEWLETTER AND PROMOTION</span>
+                <form  class="subscribe__form" action="#">
+                    <input class="subscribe__form-mail" type="text" placeholder="Enter Your Name"><input class="subscribe__form-mail-submit" type="submit" value="Subscribe">
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer class="footer_page ">
+        <div class="footer__wrapper container">
+            <div class="footer__brand">
+                <a class="header__logo" href="index.html">
+                   <img src="img/logo.png" alt="logo">
+                   <span class="brand-first-part">Bran</span><span class="brand-second-part">d</span>
+                </a>
+                <span class="footer__brand-text">Objectively transition extensive data rather than cross functional solutions. Monotonectally syndicate multidisciplinary materials before go&nbsp;forward benefits. Intrinsicly syndicate an&nbsp;expanded array of&nbsp;processes and cross-unit partnerships.</span>
+                <span class="footer__brand-text">Efficiently plagiarize 24/365 action items and focused infomediaries.</span>
+                <span class="footer__brand-text">Distinctively seize superior initiatives for wireless technologies.</span>
+                <span class="footer__brand-text">Dynamically optimize.</span>
+            </div>
+            <div class="footer__content">
+                <span class="footer__content-title">Company</span>
+                <a class="footer__content-subtitle" href="#">Home</a>
+                <a class="footer__content-subtitle" href="#">Shop</a>
+                <a class="footer__content-subtitle" href="#">About</a>
+                <a class="footer__content-subtitle" href="#">How It Works</a>
+                <a class="footer__content-subtitle" href="#">Contact</a>
+            </div>
+            <div class="footer__content">
+                <span class="footer__content-title">Information</span>
+                <a class="footer__content-subtitle" href="#">Tearms &amp;&nbsp;Condition</a>
+                <a class="footer__content-subtitle" href="#">Privacy Policy</a>
+                <a class="footer__content-subtitle" href="#">How to Buy</a>
+                <a class="footer__content-subtitle" href="#">How to Sell</a>
+                <a class="footer__content-subtitle" href="#">Promotion</a>
+            </div>
+            <div class="footer__content">
+                <span class="footer__content-title">Shop Category</span>
+                <a class="footer__content-subtitle" href="#">Men</a>
+                <a class="footer__content-subtitle" href="#">Women</a>
+                <a class="footer__content-subtitle" href="#">Child</a>
+                <a class="footer__content-subtitle" href="#">Apparel</a>
+                <a class="footer__content-subtitle" href="#">Browse All</a>
+            </div>
+        </div>
+        <div class="footer__end">
+            <div class="footer__end-wrapper container">
+                <span class="footer__footer-copyright">&copy;&nbsp;2017 Brand All Rights Reserved</span>
+                <div class="footer__footer-social">
+                       <a class="footer__footer-social-link" href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                       <a class="footer__footer-social-link" href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                       <a class="footer__footer-social-link" href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                       <a class="footer__footer-social-link" href=""><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+                       <a class="footer__footer-social-link" href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a>                
+                </div>
+            </div>
+        </div>   
+    </footer>
+</body>
+</html>
