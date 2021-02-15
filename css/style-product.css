@@ -310,11 +310,11 @@
     font-weight: 700;
     text-transform: uppercase;
     color: #6f6e6e;
+    width: 25%;
     
 }
 
 .filter__by-size-text {
-    margin-right: 14px;
     display: flex;
     margin-bottom: 10px;
 }
@@ -422,6 +422,10 @@
 
 
 .hidden {
+    width: 261px;
+    height: auto;
+    background-image: url(../img/product_active.png);
+    background-repeat: no-repeat;
     position: absolute;
     display: flex;
     justify-content: space-around;
@@ -601,7 +605,8 @@
     margin-bottom: 96px;
     background-position: 50%;
     background-image: url(../img/subscribe_background.jpg);
-    background-repeat: no-repeat;   
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .subscribe__content {

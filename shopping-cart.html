@@ -5,7 +5,7 @@
     <title>Верстка Geekbrains</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lato-font/3.0.0/css/lato-font.min.css">
-    <link rel="stylesheet" href="css/style-single.css">
+    <link rel="stylesheet" href="css/style-shoping.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
 </head>
 <body>
@@ -43,99 +43,62 @@
             </div>           
        </div>            
     </section>
-    <section class="product-description">
-        <div class="product-description__slider">
-           <button class="product-description__slider-controls"><i class="fa fa-angle-left" aria-hidden="true"></i></button><button class="product-description__slider-controls"><i class="fa fa-angle-right" aria-hidden="true"></i></button>            
-        </div>
-        <div class="product-description__wrapper container">
-            <span class="product-description__title-special">WOMEN COLLECTION</span>
-            <span class="product-description__title">Moschino Cheap And Chic</span>
-            <span class="product-description__text">Compellingly actualize fully researched processes before proactive outsourcing. Progressively syndicate collaborative architectures before cutting-edge services. Completely visualize parallel core competencies rather than exceptional portals. </span>
-            <div class="product-description__properties">
-                <span class="product-description__properties-item">MATERIAL: <span class="properties-text">COTTON</span></span>
-                <span class="product-description__properties-item">DESIGNER: <span class="properties-text">BINBURHAN</span></span>
+    <section class="cart__content container">
+       <div class="cart__content-wrapper">
+            <div class="cart__content-item"><span class="cart__content-wrapper-title">Product Details</span></div>
+            <div class="cart__content-item"><span class="cart__content-wrapper-title">Unite Price</span></div>
+            <div class="cart__content-item"><span class="cart__content-wrapper-title">Quantity</span></div>
+            <div class="cart__content-item"><span class="cart__content-wrapper-title">Shipping</span></div>
+            <div class="cart__content-item"><span class="cart__content-wrapper-title">Subtotal</span></div>
+            <div class="cart__content-item"><span class="cart__content-wrapper-title">Action</span></div>
+            <div class="cart__content-item">
+                <figure class="cart__content-item-details">
+                    <p class="cart__content-item-picture"><img src="/img/cart_content_1.jpg" alt=""></p>
+                    <figcaption class="cart__content-item-caption">
+                    <span class="cart__content-item-title">Mango People T-shirt</span>
+                    <span class="cart__content-item-feature">Color:<span class="cart__content-item-feature-value">Red</span></span>
+                    <span class="cart__content-item-feature">Size:<span class="cart__content-item-feature-value">XII</span></span>
+                    </figcaption> 
+                </figure>
             </div>
-            <span class="product-description__price">$561</span>
-            <form class="product-description__filter" action="#">
-               <div class="product-description__filter-item">
-                   <label class="product-description__filter-item-label" for="color-choise">CHOOSE COLOR</label>
-                   <input class="product-description__filter-item-input" type="color" id="color-choise">
-               </div>
-               <div class="product-description__filter-item">
-                   <label class="product-description__filter-item-label" for="size-choise">CHOOSE SIZE</label>
-                   <input class="product-description__filter-item-input" name="size" list="sizes" id="size-choise" />
-                        <datalist id="sizes">
-                           <option value="XXL" />
-                           <option value="XL" />
-                           <option value="L" />
-                           <option value="M" />
-                           <option value="S" />
-                           <option value="XS" />
-                           <option value="XXS" />
-                        </datalist>
-                </div>
-               <div class="product-description__filter-item">
-                   <label class="product-description__filter-item-label" for="quantity-choise">QUANTITY</label>
-                   <input class="product-description__filter-item-input" name="quantity" list="quantities" id="quantity-choise" />
-                        <datalist id="quantities">
-                           <option value="1" />
-                           <option value="2" />
-                           <option value="3" />
-                           <option value="4" />
-                           <option value="5" />
-                           <option value="6" />
-                           <option value="7" />
-                        </datalist>
-                </div>
-            </form>
-            <button class="product-description__button-cart"><img class="cart-red" src="img/red_cart.png" alt="red-cart">Add to Cart</button>
-        </div>
+            <div class="cart__content-item"><span class="cart__content-text">$150</span></div>
+            <div class="cart__content-item"><input class="cart__content-quantuty" type="number" min="0"></div>
+            <div class="cart__content-item"><span class="cart__content-text">Free</span></div>
+            <div class="cart__content-item"><span class="cart__content-text">$300</span></div>
+            <div class="cart__content-item"><button class="cart__content-text-special"><i class="fa fa-times-circle" aria-hidden="true"></i></button></div>
+            <div class="cart__content-item">
+                <figure class="cart__content-item-details">
+                    <p class="cart__content-item-picture"><img src="/img/cart_content_2.jpg" alt=""></p>
+                    <figcaption class="cart__content-item-caption">
+                    <span class="cart__content-item-title">Mango People T-shirt</span>
+                    <span class="cart__content-item-feature">Color:<span class="cart__content-item-feature-value">Red</span></span>
+                    <span class="cart__content-item-feature">Size:<span class="cart__content-item-feature-value">XII</span></span>
+                    </figcaption> 
+                </figure>
+            </div>
+            <div class="cart__content-item"><span class="cart__content-text">$150</span></div>
+            <div class="cart__content-item"><input class="cart__content-quantuty" type="number" min="0"></div>
+            <div class="cart__content-item"><span class="cart__content-text">Free</span></div>
+            <div class="cart__content-item"><span class="cart__content-text">$300</span></div>
+            <div class="cart__content-item"><button class="cart__content-text-special"><i class="fa fa-times-circle" aria-hidden="true"></i></button></div>
+            <div class="cart__content-item">
+                <figure class="cart__content-item-details">
+                    <p class="cart__content-item-picture"><img src="/img/cart_content_3.jpg" alt=""></p>
+                    <figcaption class="cart__content-item-caption">
+                    <span class="cart__content-item-title">Mango People T-shirt</span>
+                    <span class="cart__content-item-feature">Color:<span class="cart__content-item-feature-value">Red</span></span>
+                    <span class="cart__content-item-feature">Size:<span class="cart__content-item-feature-value">XII</span></span>
+                    </figcaption> 
+                </figure>
+            </div>
+            <div class="cart__content-item"><span class="cart__content-text">$150</span></div>
+            <div class="cart__content-item"><input class="cart__content-quantuty" type="number" min="0"></div>
+            <div class="cart__content-item"><span class="cart__content-text">Free</span></div>
+            <div class="cart__content-item"><span class="cart__content-text">$300</span></div>
+            <div class="cart__content-item"><button class="cart__content-text-special"><i class="fa fa-times-circle" aria-hidden="true"></i></button></div>
+            
+       </div>
     </section>
-    <section class="product container">
-           <h1 class="product__title">you may like also</h1>
-           <div class="product__wrapper">
-                <figure class="product_item">
-                    <p><img src="img/women-product-1.jpg" alt="product1" /></p>
-                    <figcaption class="product__features-wrapper">
-                    <span class="product__name">BLAZE LEGGINGS</span>
-                    <span class="product__price">$52.00</span></figcaption>
-                    <div class="hidden">
-                        <div class="product__add"><button class="cart__button"><img class="cart" src="img/cart.png" alt="cart">Add to Cart</button>
-                        </div>
-                    </div>
-                </figure>
-                <figure class="product_item">
-                    <p><img src="img/women-product-2.jpg" alt="product2" /></p>
-                    <figcaption class="product__features-wrapper">
-                    <span class="product__name">ALEXA SWEATER</span>
-                    <span class="product__price">$52.00</span></figcaption>
-                    <div class="hidden">
-                        <div class="product__add"><button class="cart__button"><img class="cart" src="img/cart.png" alt="cart">Add to Cart</button>
-                        </div>
-                    </div>
-                </figure>
-                <figure class="product_item">
-                    <p><img src="img/women-product-3.jpg" alt="product3" /></p>
-                    <figcaption class="product__features-wrapper">
-                    <span class="product__name">AGNES TOP</span>
-                    <span class="product__price">$52.00</span></figcaption>
-                    <div class="hidden">
-                        <div class="product__add"><button class="cart__button"><img class="cart" src="img/cart.png" alt="cart">Add to Cart</button>
-                        </div>
-                    </div>
-                </figure>
-                <figure class="product_item">
-                    <p><img src="img/women-product-4.jpg" alt="product4" /></p>
-                    <figcaption class="product__features-wrapper">
-                    <span class="product__name">SYLVA SWEATER</span>
-                    <span class="product__price">$52.00</span></figcaption>
-                    <div class="hidden">
-                        <div class="product__add"><button class="cart__button"><img class="cart" src="img/cart.png" alt="cart">Add to Cart</button>
-                        </div>
-                    </div>
-                </figure>
-           </div> 
-        </section>
     <section class="subscribe">
         <div class="subscribe__content container">
             <div class="subscribe__feedback">
