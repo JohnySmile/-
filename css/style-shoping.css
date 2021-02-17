@@ -186,9 +186,11 @@
     color: #f16d7f;
 }
 
+
 .cart__content-wrapper {
     display: grid;
     grid-template-columns: 40% 12% 12% 12% 12% 12%;
+    margin-bottom: 50px;
 }
 
 .cart__content-item {
@@ -281,6 +283,147 @@
     font-weight: 400;
     text-transform: uppercase;
     color: #c0c0c0;
+}
+
+.cart__content-controls {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.cart__content-controls-clear,
+.cart__content-controls-continue {
+    width: 235px;
+    height: 50px;
+    background-color: #ffffff;
+    border: 1px solid #eaeaea;
+    font-family: Lato;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #4a4a4a;
+}
+
+.cart__content-controls-continue {
+    width: 225px;
+}
+
+.check__summary {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.check__summary-adress,
+.check__summary-coupon,
+.check__summary-total-price {
+    display: flex;
+    flex-direction: column;
+}
+
+.check__summary-total-price {
+    padding: 44px 44px 0;
+    background-color: #f5f3f3;
+    display: flex;
+    align-items: flex-end;
+    height: 160px;
+}
+
+.check__summary-adress-title,
+.check__summary-coupon-title {
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #222222;
+    margin-bottom: 20px;
+}
+
+.check__summary-coupon-text {
+    font-family: Lato;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 300;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.check__summary-adress-country,
+.check__summary-adress-state,
+.check__summary-adress-postcode,
+.check__summary-coupon-state {
+    width: 355px;
+    height: 45px;
+    background-color: #ffffff;
+    border: 1px solid #eaeaea;
+    font-family: Lato;
+    font-size: 13px;
+    line-height: 1.2;
+    font-weight: 300;
+    color: #b1b1b1;
+    margin-bottom: 20px;
+}
+
+.check__summary-adress-control,
+.check__summary-coupon-control {
+    width: 100px;
+    height: 35px;
+    background-color: #ffffff;
+    border: 1px solid #eaeaea;
+    font-family: Lato;
+    font-size: 11px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #4a4a4a;
+}
+
+.check__summary-coupon-control {
+    width: 118px;
+}
+
+.check__summary-total-price-subtitle {
+    font-family: Lato;
+    font-size: 11px;
+    line-height: 1.2;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #4a4a4a;
+    margin-bottom: 10px;
+}
+.check__summary-total-price-title,
+.check__summary-total-price-title-spec {
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #222222;
+    margin-bottom: 20px;
+}
+
+.check__summary-total-price-subtitle-spec {
+    margin-left: 20px;
+}
+
+.check__summary-total-price-title-spec {
+    color: #f16d7f;
+    margin-left: 20px;
+}
+
+.check__summary-total-price-control {
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+    width: 273px;
+    height: 50px;
+    background-color: #f16d7f;
+    border: none;
 }
 
 

@@ -95,10 +95,42 @@
             <div class="cart__content-item"><input class="cart__content-quantuty" type="number" min="0"></div>
             <div class="cart__content-item"><span class="cart__content-text">Free</span></div>
             <div class="cart__content-item"><span class="cart__content-text">$300</span></div>
-            <div class="cart__content-item"><button class="cart__content-text-special"><i class="fa fa-times-circle" aria-hidden="true"></i></button></div>
-            
+            <div class="cart__content-item"><button class="cart__content-text-special"><i class="fa fa-times-circle" aria-hidden="true"></i></button></div>  
+       </div>
+       <div class="cart__content-controls">
+           <button class="cart__content-controls-clear">Clear Shopping Cart</button>
+           <button class="cart__content-controls-continue">Continue Shopping</button>
        </div>
     </section>
+    <div class="check__summary container">
+        <div class="check__summary-adress">
+            <span class="check__summary-adress-title">Shipping Adress</span>
+            <input class="check__summary-adress-country" name="country" list="countries" id="size-choise" />
+                        <datalist id="countries">
+                           <option value="Bangladesh" />
+                           <option value="England" />
+                           <option value="Pussia" />
+                           <option value="France" />
+                           <option value="Germany" />
+                           <option value="USA" />
+                           <option value="Spain" />
+                        </datalist>
+            <input class="check__summary-adress-state" type="text">
+            <input class="check__summary-adress-postcode" type="text">
+            <button class="check__summary-adress-control">get a quote</button>
+        </div>
+        <div class="check__summary-coupon">
+            <span class="check__summary-coupon-title">Shipping Adress</span>
+            <span class="check__summary-coupon-text">Enter your coupon code if you have one</span>
+            <input class="check__summary-coupon-state" type="text">
+            <button class="check__summary-coupon-control">Apply coupon</button>
+        </div>
+        <div class="check__summary-total-price">
+           <span class="check__summary-total-price-subtitle">Sub total<span class="check__summary-total-price-subtitle-spec">$900</span></span>
+           <span class="check__summary-total-price-title">GRAND TOTAL<span class="check__summary-total-price-title-spec">$900</span></span>
+           <button class="check__summary-total-price-control">Proceed to checkout</button>
+        </div>    
+    </div>
     <section class="subscribe">
         <div class="subscribe__content container">
             <div class="subscribe__feedback">
